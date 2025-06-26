@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   creator: "Ali Magdy",
 
   openGraph: {
-    title: "Ali Magdy | Back-End Developer Portfolio",
+    title: "Ali Magdy | Software Engineer",
     type: "website",
     url: "https://alimagdy.vercel.app",
     description:
