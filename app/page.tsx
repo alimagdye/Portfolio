@@ -14,6 +14,7 @@ import { SectionHeading } from "@/components/section-heading";
 import { GlassmorphicCard } from "@/components/glassmorphic-card";
 import { ViewProjectsButton } from "@/components/viewProjectsButton";
 import { ContactMeButton } from "@/components/contactMeButton";
+import { LeetCodeIcon } from "@/components/leetcode-icon";
 
 export default function Portfolio() {
   return (
@@ -72,8 +73,9 @@ export default function Portfolio() {
                   <span className="sr-only">GitHub</span>
                 </Button>
               </Link>
+              
               <Link
-                href="https://www.linkedin.com/in/alimagdye/"
+                href="https://www.linkedin.com/in/alimagdye"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -87,14 +89,21 @@ export default function Portfolio() {
                 </Button>
               </Link>
 
-              <Button
-                variant="ghost"
-                size="icon"
-                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
+              <Link
+                href="https://leetcode.com/u/alimagdy"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Twitter className="h-5 w-5" />
-                <span className="sr-only">Twitter</span>
-              </Button>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
+                >
+                  <LeetCodeIcon />
+                  <span className="sr-only">LeetCode</span>
+                </Button>
+              </Link>
+              
               <Link href="mailto:alimagdye1@gmail.com">
                 <Button
                   variant="ghost"
@@ -369,7 +378,7 @@ export default function Portfolio() {
                   <div>
                     <div className="text-sm text-zinc-500">LinkedIn</div>
                     <div className="font-medium">
-                      linkedin.com/in/alimagdye/
+                      linkedin.com/in/alimagdye
                     </div>
                   </div>
                 </div>
@@ -380,6 +389,15 @@ export default function Portfolio() {
                   <div>
                     <div className="text-sm text-zinc-500">GitHub</div>
                     <div className="font-medium">github.com/alimagdye</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
+                    <LeetCodeIcon className="h-5 w-5 text-purple-400" />
+                  </div>
+                  <div>
+                    <div className="text-sm text-zinc-500">LeetCode</div>
+                    <div className="font-medium">leetcode.com/u/alimagdy</div>
                   </div>
                 </div>
               </div>
@@ -429,7 +447,7 @@ export default function Portfolio() {
               </Button>
             </Link>
             <Link
-              href="https://www.linkedin.com/in/alimagdye/"
+              href="https://www.linkedin.com/in/alimagdye"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -442,15 +460,21 @@ export default function Portfolio() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-
-            <Button
-              variant="ghost"
-              size="icon"
-              className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
+            <Link
+              href="https://leetcode.com/u/alimagdy"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Twitter className="h-5 w-5" />
-              <span className="sr-only">Twitter</span>
-            </Button>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white"
+              >
+                <LeetCodeIcon />
+                <span className="sr-only">LeetCode</span>
+              </Button>
+            </Link>
+
             <Link href="mailto:alimagdye1@gmail.com">
               <Button
                 variant="ghost"
