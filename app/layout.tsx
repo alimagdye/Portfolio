@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteDescription =
+  "Ali Magdy is a Computer Science student at Ain Shams University and a back-end developer specializing in Node.js, TypeScript, and databases including PostgreSQL, MySQL, and MongoDB. He works as an AI Trainer at Outlier and builds real-world projects such as a real-time chat app and a hotel database system.";
+
 export const metadata: Metadata = {
   title: "Ali Magdy | Software Engineer",
-  description:
-    "Ali Magdy is a Computer Science student at Ain Shams University and a back-end developer specializing in Node.js, TypeScript, and databases like PostgreSQL, MySQL, and MongoDB. He currently works as an AI Trainer at Outlier and builds real-world apps including a real-time chat app and hotel database system.",
+  description: siteDescription,
   generator: "Next.js",
   applicationName: "Ali Magdy Portfolio",
   authors: [{ name: "Ali Magdy", url: "https://alimagdy.vercel.app" }],
@@ -14,8 +16,7 @@ export const metadata: Metadata = {
     title: "Ali Magdy | Software Engineer",
     type: "website",
     url: "https://alimagdy.vercel.app",
-    description:
-      "Explore Ali Magdy's portfolio showcasing back-end projects, real-time applications, and database-driven systems built with Node.js, TypeScript, and Supabase.",
+    description: siteDescription,
     images: [
       {
         url: "https://alimagdy.vercel.app/prf.jpg",
