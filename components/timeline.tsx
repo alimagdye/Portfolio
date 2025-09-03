@@ -14,7 +14,7 @@ const experiences = [
     ],
   },
   {
-    title: "Freelance Web Developer",
+    title: "Web Developer",
     company: "Zahret Misr Company",
     period: "OCT 2024 - OCT 2024",
     description: [
